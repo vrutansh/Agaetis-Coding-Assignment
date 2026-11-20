@@ -138,3 +138,12 @@ Use a managed migration step in the release pipeline. Do not run the demo seed i
 - Navigate multiple pages and delete the last row on a page
 - Review empty-database and unavailable-API states
 - Check desktop and narrow mobile layouts
+
+
+## Screenshots
+<img width="1920" height="1080" alt="Screenshot (160)" src="https://github.com/user-attachments/assets/b4f8c3e1-e2d4-4917-b498-d0d3db8e2689" />
+<img width="1920" height="1080" alt="Screenshot (159)" src="https://github.com/user-attachments/assets/5dc564b9-7dc6-4726-9166-fbe105d29921" />
+<img width="1920" height="1080" alt="Screenshot (158)" src="https://github.com/user-attachments/assets/ea4b0633-4355-4a46-b54c-55b78f136fa0" />
+<img width="1920" height="1080" alt="Screenshot (157)" src="https://github.com/user-attachments/assets/2a8c78c9-06a9-4527-bd49-caeb0e9eacb5" />
+
+
