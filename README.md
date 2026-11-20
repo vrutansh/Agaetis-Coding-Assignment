@@ -141,9 +141,14 @@ Use a managed migration step in the release pipeline. Do not run the demo seed i
 
 
 ## Screenshots
-<img width="1920" height="1080" alt="Screenshot (160)" src="https://github.com/user-attachments/assets/b4f8c3e1-e2d4-4917-b498-d0d3db8e2689" />
-<img width="1920" height="1080" alt="Screenshot (159)" src="https://github.com/user-attachments/assets/5dc564b9-7dc6-4726-9166-fbe105d29921" />
-<img width="1920" height="1080" alt="Screenshot (158)" src="https://github.com/user-attachments/assets/ea4b0633-4355-4a46-b54c-55b78f136fa0" />
-<img width="1920" height="1080" alt="Screenshot (157)" src="https://github.com/user-attachments/assets/2a8c78c9-06a9-4527-bd49-caeb0e9eacb5" />
+
+<img width="1920" height="1080" alt="Screenshot (161)" src="https://github.com/user-attachments/assets/5473ce59-35ee-40cf-be42-16ab47ef5309" />
+<img width="1920" height="1080" alt="Screenshot (171)" src="https://github.com/user-attachments/assets/d50fd6be-4b08-498f-aa9d-880ff29d4dc3" />
+<img width="1920" height="1080" alt="Screenshot (170)" src="https://github.com/user-attachments/assets/8c0fac26-41ee-4d2b-a3a0-4378caad3ba2" />
+<img width="1920" height="1080" alt="Screenshot (169)" src="https://github.com/user-attachments/assets/6c3cc880-4111-4bbc-a4c9-1e5db2b77b68" />
+<img width="1920" height="1080" alt="Screenshot (163)" src="https://github.com/user-attachments/assets/4af55e5e-5ddd-4bc3-a2ca-dcd327b94572" />
+<img width="1920" height="1080" alt="Screenshot (162)" src="https://github.com/user-attachments/assets/21c95ea7-ec70-433c-b801-3a85230d08d8" />
+
+
 
 
