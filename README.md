@@ -138,7 +138,3 @@ Use a managed migration step in the release pipeline. Do not run the demo seed i
 - Navigate multiple pages and delete the last row on a page
 - Review empty-database and unavailable-API states
 - Check desktop and narrow mobile layouts
-
-## Screenshots
-
-Real screenshots can be added after running the application against the local PostgreSQL container. No mock employee data is embedded in the production UI.
