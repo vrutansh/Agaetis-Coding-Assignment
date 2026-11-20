@@ -1,5 +1,5 @@
 import { keepPreviousData, useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
-import { ChevronLeft, ChevronRight, Plus, Search, Users } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Plus, Search } from 'lucide-react';
 import { useState } from 'react';
 import { DeleteEmployeeDialog } from './components/DeleteEmployeeDialog';
 import { EmptyState, ErrorState, LoadingState } from './components/DirectoryStates';
@@ -75,22 +75,32 @@ export default function App() {
       <header className="topbar">
         <div className="topbar-inner">
           <a className="brand" href="/" aria-label="Roster home">
-            <span className="brand-mark"><Users size={17} /></span>
-            <span className="brand-copy"><strong>Roster</strong><small>Employee directory</small></span>
+            <span className="brand-mark" aria-hidden="true"><i /><i /><i /></span>
+            <span className="brand-copy"><strong>Roster</strong><small>People, thoughtfully organized.</small></span>
           </a>
-          <span className="context-label"><i aria-hidden="true" />Employee management</span>
+          <span className="context-label">People directory <i aria-hidden="true">R</i></span>
         </div>
       </header>
 
       <main>
         <section className="page-heading">
-          <div><p className="eyebrow">Your organization</p><h1>People</h1><p>Everyone on your team, all in one place.</p></div>
-          <button className="button button--primary button--large" onClick={openAdd}><Plus size={18} />Add employee</button>
+          <div className="hero-copy">
+            <p className="eyebrow"><span>People directory</span><i aria-hidden="true" /></p>
+            <h1>The people<br />behind the work.</h1>
+            <p>Names, roles, and the human details that keep your team connected.</p>
+          </div>
+          <div className="hero-aside">
+            <div className="people-count" aria-label={employeesQuery.isLoading ? 'Loading employee count' : `${total} people on the roster`}>
+              <strong>{employeesQuery.isLoading ? '—' : total}</strong>
+              <span>{total === 1 ? 'person' : 'people'}<br />on the roster</span>
+            </div>
+            <button className="button button--primary button--large" onClick={openAdd}><Plus size={18} />Add employee</button>
+          </div>
         </section>
 
         <section className="directory-panel" aria-labelledby="directory-title">
           <div className="directory-toolbar">
-            <div className="directory-title"><h2 id="directory-title">Team directory</h2><span className="count-pill">{employeesQuery.isLoading ? '—' : total}</span><p>{employeesQuery.isLoading ? 'Loading directory…' : `${total === 1 ? 'One person' : `${total} people`} in your organization`}</p></div>
+            <div className="directory-title"><p>Directory</p><h2 id="directory-title">Everyone, at a glance.</h2></div>
             <label className="search-box"><Search size={18} aria-hidden="true" /><span className="sr-only">Search employees by name</span><input value={search} onChange={(event) => { setSearch(event.target.value); setPage(1); }} placeholder="Search by name…" /></label>
           </div>
 
