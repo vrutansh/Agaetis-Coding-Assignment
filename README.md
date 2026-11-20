@@ -139,6 +139,16 @@ Use a managed migration step in the release pipeline. Do not run the demo seed i
 - Review empty-database and unavailable-API states
 - Check desktop and narrow mobile layouts
 
+
 ## Screenshots
 
-Real screenshots can be added after running the application against the local PostgreSQL container. No mock employee data is embedded in the production UI.
+<img width="1920" height="1080" alt="Screenshot (161)" src="https://github.com/user-attachments/assets/5473ce59-35ee-40cf-be42-16ab47ef5309" />
+<img width="1920" height="1080" alt="Screenshot (171)" src="https://github.com/user-attachments/assets/d50fd6be-4b08-498f-aa9d-880ff29d4dc3" />
+<img width="1920" height="1080" alt="Screenshot (170)" src="https://github.com/user-attachments/assets/8c0fac26-41ee-4d2b-a3a0-4378caad3ba2" />
+<img width="1920" height="1080" alt="Screenshot (169)" src="https://github.com/user-attachments/assets/6c3cc880-4111-4bbc-a4c9-1e5db2b77b68" />
+<img width="1920" height="1080" alt="Screenshot (163)" src="https://github.com/user-attachments/assets/4af55e5e-5ddd-4bc3-a2ca-dcd327b94572" />
+<img width="1920" height="1080" alt="Screenshot (162)" src="https://github.com/user-attachments/assets/21c95ea7-ec70-433c-b801-3a85230d08d8" />
+
+
+
+
